@@ -1,0 +1,30 @@
+
+@using Models;
+
+@* @{
+    int EmpId=(int)ViewData["EmpId"];
+} *@
+<h3>Update Form EMPLOYEE FORM</h3>
+<form action="/Emp/UpdateEmp/@Model.Id" method="post">
+   Copy code
+<table>
+    <tr>
+        <td><label for="Id">Emp id :</label></td>
+        <td><input type="text" value="@Model.Id" name="Id" disabled></td>
+    </tr>
+    <tr>
+        <td><label for="Name">Name :</label></td>
+        <td><input type="text" value="@Model.Name" name="Name"></td>
+    </tr>
+  
+    <tr>
+        <td><label for="EType">Employee Type:</label></td>
+        <td><input type="number" value="@((int)Model.EType)" name="EType"></td>
+    </tr>
+    <tr>
+        <td><label for="JoiningDate">Joining Date:</label></td>
+        <td><input type="date" value='@Model.JoiningDate.ToString("yyyy-MM-dd")' name="JoiningDate" /></td>
+    </tr>
+</table>
+    <button type="submit">Update</button>
+</form>

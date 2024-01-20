@@ -1,0 +1,41 @@
+@using Models;
+<h3>Employee list</h3>
+<hr/>
+<a href="/Emp/AddEmp">Add EMployee</a>
+<hr>
+<style>
+    th,
+    td{
+        border: 2px solid white;
+        text-align: center;
+        padding: 8px;
+    }
+</style>
+@{
+    List<Employee> emplist = (List<Employee>)ViewData["employees"];
+        <table border="3px" solid #dddddd style = "width: 100%;"> 
+            <tr>
+                <th>EmpId</th>
+                <th>Name</th>
+                <th>EmpType</th>
+                <th>Joining Date</th>
+                <th colspan="2">Action</th>
+                
+            </tr>
+            @foreach (Employee e in emplist)
+            {
+                <tr>
+                    <td>@e.Id</td>
+                    <td>@e.Name</td>
+                    <td>@e.empType</td>
+                    <td>@e.JoiningDate</td>
+                    <td><a href="/Emp/UpdateForm/@e.Id"><button>Update</button></a></td>
+                    
+                </tr>
+            }
+
+            </table>
+                
+            
+            
+}

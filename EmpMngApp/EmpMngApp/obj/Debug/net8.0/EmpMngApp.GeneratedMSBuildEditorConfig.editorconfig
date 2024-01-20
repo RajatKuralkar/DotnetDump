@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ASUS\Desktop\CDAC Sept2023\dotnet\EmpMngApp\EmpMngApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ASUS/Desktop/CDAC Sept2023/dotnet/EmpMngApp/EmpMngApp/Views/Emp/AddEmp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEFkZEVtcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/CDAC Sept2023/dotnet/EmpMngApp/EmpMngApp/Views/Emp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/Desktop/CDAC Sept2023/dotnet/EmpMngApp/EmpMngApp/Views/Emp/UpdateForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXFVwZGF0ZUZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ASUS/Desktop/CDAC Sept2023/dotnet/EmpMngApp/EmpMngApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

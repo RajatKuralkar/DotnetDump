@@ -1,0 +1,27 @@
+@model Models.Employee
+<h3>ADD EMPLOYEE FORM</h3>
+<form asp-controller="Emp" asp-action="CreateEmp" method="post" id="employeeForm">
+    <table>
+        <tr>
+            <td><label asp-for="Id">Emp id :</label></td>
+            <td><input asp-for="Id"/></td>
+            <td><span asp-validation-for="Id" class="text-denger"></span></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Name">Name :</label></td>
+            <td><input asp-for="Name"/></td>
+            <td><span asp-validation-for="Name" class="text-denger"></span></td>
+        </tr>
+        <tr>
+            <td><label asp-for="empType">Employee Type :</label></td>
+            <td><input asp-for="empType"/></td>
+            <td><span asp-validation-for="empType" class="text-denger"></span></td>
+        </tr>
+        <tr>
+            <td><label asp-for="JoiningDate">JoiningDate :</label></td>
+            <td><input asp-for="JoiningDate"/></td>
+            <td><span asp-validation-for="JoiningDate" class="text-denger"></span></td>
+        </tr>
+    </table>
+    <button type="submit">Add</button>
+</form>

@@ -1,0 +1,23 @@
+@using Models;
+
+@{
+    @model List<Shop>
+}
+
+<table>
+    <thead>
+        <th>Shop ID</th>
+        <th>Shop Name</th>
+        <th>Shop Price</th>
+    </thead>
+<tbody>
+    @foreach(var shop in Model)
+    {
+        <tr>
+            <td>@shop.Pid</td>
+            <td>@shop.Pname</td>
+            <td>@shop.Pprice</td>
+        </tr>
+    }
+</tbody>
+</table>
