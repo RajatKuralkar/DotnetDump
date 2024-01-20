@@ -1,0 +1,25 @@
+<h3>Update Form EMPLOYEE FORM</h3>
+@{
+    int EmpId=(int)ViewData["EmpId"];
+}
+<form action="/Emp/UpdateEmp/@EmpId" method="post">
+    <label for="Id">Emp id :</label>
+    <input type="text" name="Id" value="@EmpId" disabled>
+    <label for="Name">Name : </label>
+    <input type="text" name="Name">
+    <label for="noHrs">No.NoOfHrsWorked</label>
+    <input type="number" name="noHrs">
+    <label for="BasicSal">BasicSal</label>
+    <input type="number" name="BasicSal">
+    <label for="Tax">TAX</label>
+    <input type="number" name="Tax">
+    <label for="Dept">Dept</label>
+    <input type="text" name="Dept">
+    <label for="DA">DA</label>
+    <input type="number" name="DA">
+    <label for="EType">Employee Type</label>
+    <input type="number" name="EType">
+    <label for="JoiningDate">Joining DATE</label>
+    <input type="date" name="JoiningDate">
+    <button type="submit">Add</button>
+</form>
