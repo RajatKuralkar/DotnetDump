@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBWebAppEmpMgmt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd0abac74396216f2c6c43b4cee5c32c24c00b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBWebAppEmpMgmt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBWebAppEmpMgmt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
